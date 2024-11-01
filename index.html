@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSoC 2024 Work Report</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Google Summer of Code 2024 Work Report: Enhancing Eventyay-Video</h1>
+    </header>
+
+    <section>
+        <h2>Community Bonding Period</h2>
+        <p>During the Community Bonding period, I familiarized myself with the FOSSASIA community, the Eventyay-Video platform, and the broader Eventyay ecosystem, including Eventyay-Talk and Eventyay-Tickets. This period allowed me to deepen my understanding of the project’s goals, the technical stack, and FOSSASIA's collaborative processes. I took several key steps to prepare for my work effectively:</p>
+        <ul>
+            <li><strong>Meetings with Mentors:</strong> I held introductory meetings with my mentors to discuss the project’s scope, technical expectations, and the initial project roadmap. These sessions helped clarify my role and the skills I needed to focus on.</li>
+            <li><strong>Project Documentation:</strong> I reviewed existing documentation and source code for Eventyay-Video, Eventyay-Talk, and Eventyay-Tickets to understand the platform’s architecture and identify areas where my contributions would have the most impact.</li>
+            <li><strong>Contribution Workflow:</strong> I became familiar with FOSSASIA's contribution workflow, including code standards, Git practices, and communication channels. This enabled me to efficiently integrate my work with the existing codebase and collaborate seamlessly with other contributors.</li>
+            <li><strong>Community Interaction:</strong> I actively participated in FOSSASIA community discussions, attending virtual meetups, and engaging with other contributors on FOSSASIA’s chat channels. This helped me understand user needs and gain insights into potential improvements to the platform.</li>
+        </ul>
+        <p>This bonding period was essential for building a strong foundation for the project. It allowed me to align with the community’s values and goals, and provided the knowledge I needed to start coding with confidence.</p>
+    </section>
+
+    <section>
+        <h2>Project Summary</h2>
+        <p><strong>Project Title:</strong> Enhancing Eventyay-Video</p>
+        <p><strong>Mentors:</strong> Cweitat, Mohit Karekar, Rebentisch, Nayana Adassuriya  </p>
+        <p><strong>Organization:</strong> FOSSASIA</p>
+        <p><strong>Project Link:</strong> <a href="https://github.com/untari/eventyay-video">Eventyay-Video GitHub Repository</a></p>
+        <p><strong>Duration:</strong> May 2024 - October 2024</p>
+    </section>
+
+    <section>
+        <h2>Detailed Project Description</h2>
+        <h3>Implementing a Live Interpretation System</h3>
+        <ul>
+            <li><strong>Research and Planning:</strong> Researched existing solutions and planned the architecture for integrating real-time audio streaming.</li>
+            <li><strong>Implementation:</strong> Developed and integrated a real-time audio streaming service, with backend support for managing multiple audio streams and a user-friendly interface for selecting language streams.</li>
+            <li><strong>Testing and Optimization:</strong> Conducted extensive testing to ensure stability and optimized performance for a seamless user experience.</li>
+        </ul>
+
+        <h3>Setting Up Auto-Deployment with Docker</h3>
+        <ul>
+            <li><strong>Dockerization:</strong> Created Docker images for various platform components, ensuring consistency and ease of deployment.</li>
+            <li><strong>Configuration:</strong> Configured Docker Compose to manage multi-container applications, simplifying the setup process.</li>
+            <li><strong>CI/CD Pipelines:</strong> Set up continuous integration and continuous deployment (CI/CD) pipelines to automate testing and deployment, enhancing the overall development workflow.</li>
+        </ul>
+
+        <h3>Updating Dependencies</h3>
+        <ul>
+            <li><strong>Audit:</strong> Conducted a thorough audit of the platform’s dependencies to identify outdated packages.</li>
+            <li><strong>Update:</strong> Updated dependencies and resolved any arising conflicts.</li>
+            <li><strong>Testing:</strong> Performed comprehensive testing to ensure the platform's stability and functionality after updates.</li>
+        </ul>
+
+        <h3>Improving the User Interface</h3>
+        <ul>
+            <li><strong>Redesign:</strong> Redesigned the main dashboard for improved usability and aesthetics.</li>
+            <li><strong>Responsive Design:</strong> Implemented responsive design principles to ensure compatibility across various devices, providing a seamless user experience.</li>
+            <li><strong>User Feedback:</strong> Incorporated feedback from users to refine and enhance UI elements.</li>
+        </ul>
+
+        <h3>Improving YouTube Integration and Adding More Controls</h3>
+        <ul>
+            <li><strong>Enhanced Embedding:</strong> Improved the process for embedding YouTube videos, making it more robust and flexible.</li>
+            <li><strong>Advanced Controls:</strong> Added features such as playback speed control, captions, and interactive overlays to enhance the viewing experience.</li>
+            <li><strong>Seamless Integration:</strong> Ensured smooth integration with the platform’s existing features, maintaining a cohesive user experience.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contributions to Eventyay-Talk and Eventyay-Tickets</h2>
+        
+        <h3>Eventyay-Tickets</h3>
+        <p>In the commit <a href="https://github.com/untari/eventyay-tickets/commit/0d18b43b20c63c5215d8db3cf5c1831ecd963177">0d18b43</a>, 
+            I enhanced the project's continuous integration process by configuring GitHub Actions workflows. This involved setting up triggers to automate testing and deployment 
+            processes, ensuring that code changes are automatically tested and deployed upon each commit. This improvement streamlined the development workflow and increased the 
+            reliability of the deployment process.</p>
+    
+        <h3>Eventyay-Talk</h3>
+        <p>In the commit <a href="https://github.com/untari/eventyay-talk/commit/3a2a33320c98e20094b4199f831941c93f5df17e">3a2a333</a>,
+             I contributed by refining the workflow automation using GitHub Actions. This included optimizing the workflow triggers to ensure efficient execution of tasks such as 
+             building and testing the application. By doing so, I helped improve the project's CI/CD pipeline, making it more robust and responsive to code changes.</p>
+    </section>
+
+    <section>
+        <h2>Conclusion</h2>
+        <p>The enhancements made during this GSoC project have significantly improved the functionality, deployment efficiency, and user experience of the Eventyay-Video platform. The live interpretation system has broadened the platform’s accessibility, making it suitable for international events. The automated deployment process with Docker has streamlined workflows, and updated dependencies have ensured security and performance. The improved user interface, enhanced YouTube integration, and specific contributions to Eventyay-Talk and Eventyay-Tickets provide a more intuitive and engaging experience for all users.</p>
+        <p>I would like to express my gratitude to my mentors and the FOSSASIA community for their support and guidance throughout this project. This experience has been immensely rewarding, and I look forward to continuing my contributions to open-source software.</p>
+        <p>For more information about my work and the Eventyay ecosystem, please visit the <a href="https://github.com/untari/eventyay-video">Eventyay-Video</a>, <a href="https://github.com/untari/eventyay-talk">Eventyay-Talk</a>, and <a href="https://github.com/untari/eventyay-tickets">Eventyay-Tickets</a> GitHub repositories.</p>
+    </section>
+</body>
+</html>
